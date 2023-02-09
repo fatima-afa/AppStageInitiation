@@ -1,0 +1,40 @@
+.root{
+    -fx-font-size  : 11pt;
+    -fx-font-family: "Times New Roman";
+    -fx-base       : #ffffff ;
+    -fx-background-color: #ffffff;
+
+
+
+}
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-color:transparent;
+    -fx-tab-min-width:120px;
+    -fx-tab-max-width:120px;
+    -fx-tab-min-height:50px;
+    -fx-tab-max-height:50px;
+}
+
+.tab {
+    -fx-font-family: "Times New Roman";
+    -fx-base       : #ffffff ;
+    -fx-background-color:#007fff ;
+    -fx-border-color: black;
+
+
+}
+
+.tab:selected {
+    -fx-background-color:blue ;
+}
+
+.button{
+    -fx-text-fill        : #000000;
+    -fx-background-color : #007fff ;
+}
+.table-view{
+    -fx-font-size  : 9pt;
+
+-fx-border-color:#656567;
+
+}

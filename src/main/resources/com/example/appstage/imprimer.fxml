@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="660.0" prefWidth="873.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appstage.imprimerController">
+    <children>
+        <TextField fx:id="txtNom" layoutX="148.0" layoutY="97.0" />
+        <TextField fx:id="txtPrenom" layoutX="454.0" layoutY="97.0" />
+        <TextField fx:id="txtEtab" layoutX="148.0" layoutY="154.0" />
+        <TextField fx:id="txtSpec" layoutX="454.0" layoutY="154.0" />
+        <TextField fx:id="txtCin" layoutX="148.0" layoutY="23.0" />
+        <TextField fx:id="txtDuree" layoutX="148.0" layoutY="216.0" />
+        <TextField fx:id="txtPeriode" layoutX="454.0" layoutY="216.0" />
+        <TextField fx:id="txtTheme" layoutX="148.0" layoutY="271.0" />
+        <TextField fx:id="txtEncadrant" layoutX="454.0" layoutY="271.0" />
+        <TextField fx:id="txtFonction" layoutX="148.0" layoutY="321.0" />
+        <TextField fx:id="txtDivision" layoutX="454.0" layoutY="321.0" />
+        <TextField fx:id="txtUnite" layoutX="148.0" layoutY="377.0" />
+        <Label layoutX="14.0" layoutY="27.0" text="Chercher par Cin" />
+        <Label layoutX="14.0" layoutY="101.0" text="Nom" />
+        <Label layoutX="14.0" layoutY="158.0" text="Etablissement" />
+        <Label layoutX="14.0" layoutY="220.0" text="Durée (en mois)" />
+        <Label layoutX="14.0" layoutY="275.0" text="Thème proposé" />
+        <Label layoutX="14.0" layoutY="325.0" text="Fonction" />
+        <Label layoutX="14.0" layoutY="381.0" text="Unité" />
+        <Label layoutX="334.0" layoutY="101.0" text="Prenom" />
+        <Label layoutX="334.0" layoutY="158.0" text="Spécialité" />
+        <Label layoutX="334.0" layoutY="220.0" text="Période" />
+        <Label layoutX="334.0" layoutY="275.0" text="Encadrant" />
+        <Label layoutX="334.0" layoutY="325.0" text="Division" />
+        <Label layoutX="334.0" layoutY="381.0" text="Téléphone" />
+        <TextField fx:id="txtTele" layoutX="454.0" layoutY="377.0" />
+        <Button layoutX="323.0" layoutY="23.0" mnemonicParsing="false" onAction="#search" text="chercher" />
+        <Button layoutX="297.0" layoutY="435.0" mnemonicParsing="false" onAction="#imprimer" prefHeight="33.0" prefWidth="98.0" text="imprimer" />
+    </children>
+
+</AnchorPane>

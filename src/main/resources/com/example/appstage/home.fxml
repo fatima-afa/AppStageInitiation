@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appstage.homeController">
+   <children>
+      <Button layoutY="132.0" mnemonicParsing="false" onAction="#stagiaireSpace" prefHeight="79.0" prefWidth="315.0" text="Espace Stagiaire" />
+      <Button layoutY="211.0" mnemonicParsing="false" onAction="#encadrantSpace" prefHeight="79.0" prefWidth="315.0" text="Espace Encadrant" />
+      <Button layoutY="290.0" mnemonicParsing="false" onAction="#serviceSpace" prefHeight="79.0" prefWidth="315.0" text="Espace Service" />
+      <Button layoutY="369.0" mnemonicParsing="false" onAction="#DemandeurSpace" prefHeight="79.0" prefWidth="315.0" text="Espace Demandeur" />
+      <Button layoutY="441.0" mnemonicParsing="false" onAction="#StatisticSpace" prefHeight="79.0" prefWidth="315.0" text="Espace Statistiques" />
+      <Button layoutY="520.0" mnemonicParsing="false" onAction="#BDSpace" prefHeight="79.0" prefWidth="315.0" text="Recherche" />
+      <Button layoutY="599.0" mnemonicParsing="false" onAction="#PrintSpace" prefHeight="79.0" prefWidth="315.0" text="Imprimer" />
+      <Button layoutY="678.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="315.0" text="Dossier" />
+   </children>
+</AnchorPane>

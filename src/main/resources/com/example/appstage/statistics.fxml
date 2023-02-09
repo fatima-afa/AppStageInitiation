@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appstage.statisticsController">
+   <children>
+      <Label layoutX="61.0" layoutY="52.0" text="Date début " />
+      <ComboBox fx:id="comboServ" layoutX="151.0" layoutY="100.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label layoutX="61.0" layoutY="104.0" prefHeight="17.0" prefWidth="50.0" text="Service" />
+      <Label layoutX="64.0" layoutY="177.0" prefHeight="21.0" prefWidth="232.0" text="Le nombre totale des stagiaire : " />
+      <Label fx:id="labelStagiaire" layoutX="404.0" layoutY="177.0" text="0" />
+      <Label layoutX="66.0" layoutY="211.0" text="Le pourcentage des stagiaire dans ce service :" />
+      <Label fx:id="labelPerServ" layoutX="392.0" layoutY="211.0" text="0.0%" />
+      <Label layoutX="398.0" layoutY="52.0" text="Date fin" />
+      <DatePicker fx:id="dateD" layoutX="151.0" layoutY="47.0" />
+      <DatePicker fx:id="dateF" layoutX="475.0" layoutY="47.0" />
+      <Button layoutX="180.0" layoutY="294.0" mnemonicParsing="false" onAction="#quitter" prefHeight="43.0" prefWidth="79.0" text="Quitter" />
+      <Button layoutX="475.0" layoutY="294.0" mnemonicParsing="false" onAction="#chercher" prefHeight="43.0" prefWidth="99.0" text="Chercher" />
+   </children>
+</AnchorPane>

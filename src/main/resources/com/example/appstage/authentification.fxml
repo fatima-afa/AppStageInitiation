@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appstage.authentificationController">
+   <children>
+      <TextField fx:id="txtUser" layoutX="300.0" layoutY="118.0" />
+      <Label layoutX="125.0" layoutY="123.0" prefHeight="21.0" prefWidth="52.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="196.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="26.0" prefHeight="53.0" prefWidth="181.0" text="Authentification" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitter" layoutX="140.0" layoutY="285.0" mnemonicParsing="false" onAction="#quitter" prefHeight="41.0" prefWidth="100.0" text="Quitter">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="connecter" layoutX="347.0" layoutY="285.0" mnemonicParsing="false" onAction="#connecter" prefHeight="41.0" prefWidth="136.0" text="Connecter">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtPassword" layoutX="300.0" layoutY="193.0" />
+   </children>
+</AnchorPane>
